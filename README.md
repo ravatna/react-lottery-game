@@ -1,3 +1,10 @@
+# Lottery Game
+This app generates random lottery numbers
+
+### This project was built using React JS
+[Visit page](https://minm333.github.io/react-lottery-game)
+
+## About running this build:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
