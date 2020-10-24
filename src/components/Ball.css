@@ -1,0 +1,13 @@
+.Ball {
+    background-color: #ff6347;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    padding-top: .75rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
