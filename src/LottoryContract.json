@@ -1,0 +1,57 @@
+{
+  "contractName": "Lottery",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "buyTicket",
+      "outputs": [],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getTicketPrice",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "player",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "ticketNumber",
+          "type": "uint256"
+        }
+      ],
+      "name": "TicketPurchased",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x6080604052600080...",
+  "deployedBytecode": "0x60806040526000...",
+  "networks": {
+    "1": {
+      "address": "0x123456789abcdef", // Ethereum mainnet address
+      "transactionHash": "0xabcdef123456789"
+    },
+    "3": {
+      "address": "0x987654321abcdef", // Ethereum testnet (Ropsten) address
+      "transactionHash": "0xfedcba987654321"
+    }
+  }
+}
